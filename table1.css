@@ -1,0 +1,110 @@
+
+*{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+caption{
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table, td, tr, th {
+
+    border-collapse: collapse;
+    padding: 12px 10px;
+    font-size: 18px;
+
+}
+
+/* colour styling for both score, mark and grades */
+
+.vgood{
+    border: 1px ;
+    background-color: darkgreen;
+    padding: 1px 4px;
+    border-radius: 3px;
+}
+
+.good{
+    border: 1px ;
+    background-color: orange;
+    padding: 1px 4px;
+    border-radius: 3px;
+}
+
+.bad  {
+     border: 1px ;
+    background-color: rgb(236, 11, 11);
+    padding: 1px 4px;
+    border-radius: 3px; 
+}
+
+.Bad a{
+
+    background-color: red;
+    padding: 2px 33px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Vgood a{
+
+    background-color: green;
+    padding: 2px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Good a{
+
+    background-color: orange;
+    padding: 2px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* styling the container session */
+
+.container {
+
+    justify-content: center;
+    display: flex; 
+    align-items: center;
+    margin-top: 10px; 
+    margin-bottom: 50px;
+
+    
+} 
+
+table {
+
+ width: 75%;
+ 
+}
+
+th {
+
+    background-color: #1e90ff;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    border: none;
+}
+
+td {
+
+    text-align: left;
+    
+}
+
+tr:hover{
+
+    background-color: lightgrey;
+}
+
